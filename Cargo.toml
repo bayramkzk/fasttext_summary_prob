@@ -1,0 +1,18 @@
+[package]
+name = "faster_all"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fasttext = "0.7"
+reqwest = { version = "0.11", features = ["json", "stream"] }
+tokio = { version = "1", features = ["full"] }
+kdam = "0.3.0"
+anyhow = "1.0"
+diesel = { version = "2.0.0", features = ["postgres"] }
+dotenvy = "0.15"
+flate2 = "1.0.25"
+csv = "1.1.6"
+toml = "0.6.0"
+serde = "1.0.152"
+serde_derive = "1.0.152"
